@@ -1,6 +1,6 @@
 # boilr
 
-https://github.com/tmrts/boilr
+:octocat: https://github.com/tmrts/boilr :whale: https://hub.docker.com/r/schmunk42/boilr/
 
 ## Installation
 
