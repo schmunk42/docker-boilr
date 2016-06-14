@@ -13,4 +13,4 @@ RUN apt-get update && \
 RUN curl -sSL https://raw.githubusercontent.com/tmrts/boilr/master/install | bash
 ENV PATH /root/bin:${PATH}
 
-ENTRYPOINT /root/bin/boilr
+ENTRYPOINT ["boilr"]
