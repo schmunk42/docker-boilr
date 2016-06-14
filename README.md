@@ -6,7 +6,7 @@ https://github.com/tmrts/boilr
 
 In your `.bashrc` add
 
-    alias "boilr=docker run --rm -v ~/.config/boilr:/root/.config/boilr local/boilr"
+    alias "boilr=docker run --rm -v ~/.config/boilr:/root/.config/boilr schmunk42/boilr"
 
 ---
 
