@@ -6,7 +6,9 @@
 
 In your `.bashrc` add
 
-    alias "boilr=docker run -it --rm -v ~/.config/boilr:/root/.config/boilr -v $(pwd):/project --workdir /project schmunk42/boilr"
+    alias boilr="pwd | xargs -I {} -o docker run -it --rm -v ~/.config/boilr:/root/.config/boilr -v {}:/project --workdir /project schmunk42/boilr"
+    
+With the above alias you can use `boilr` as a command on your host, your current working directory is mapped to `/project` in the container.
 
 ---
 
