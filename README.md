@@ -6,7 +6,7 @@
 
 In your `.bashrc` add
 
-    alias "boilr=docker run --rm -v ~/.config/boilr:/root/.config/boilr schmunk42/boilr"
+    alias "boilr=docker run -it --rm -v ~/.config/boilr:/root/.config/boilr -v $(pwd):/project --workdir /project schmunk42/boilr"
 
 ---
 
